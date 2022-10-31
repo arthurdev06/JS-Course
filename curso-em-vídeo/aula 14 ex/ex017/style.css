@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background: rgb(156, 241, 130);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15pt;
+}
+header{
+    color: white;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+section{
+    background: rgb(156, 241, 130);
+    border-radius: 5px;
+    border-style: solid;
+    border-color: rgb(109, 212, 77);
+    padding: 15px;
+    width: 500px;
+    height: 230px;
+    margin: auto;
+    box-shadow: 3px 2px 10px rgba(0, 0, 0, 0.493);
+}
+footer{
+    color: white;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.inserirNum{
+    color: white;
+}
+.buttonCalc{
+    color: rgb(109, 212, 77);
+    background-color: white;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: rgb(109, 212, 77);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#seltab{
+    width: 180px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#seltab:hover{
+    background-color: none;
+}

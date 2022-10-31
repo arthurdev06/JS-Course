@@ -1,0 +1,72 @@
+body{
+    background: rgb(130, 130, 241);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15pt;
+    
+
+}
+header{
+    color: white;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    user-select: none;
+}
+section{
+    background: rgb(130, 130, 241);
+    border-radius: 5px;
+    border: none;
+    padding: 15px;
+    width: 500px;
+    height: 29  0px;
+    margin: auto;
+    box-shadow: 3px 2px 10px rgba(0, 0, 0, 0.493);
+    border-style: solid;
+    outline: none;
+    border-color: rgb(165, 165, 248);
+   
+}
+footer{
+    color: white;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    user-select: none;
+}
+.containNum{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15pt;
+    border-style: solid;
+    color: rgb(165, 165, 248);
+    border-color: rgb(165, 165, 248);
+    float: inline-start;
+    text-decoration: solid;
+    user-select: none;
+    
+}
+.content{
+    color: white;
+    user-select: none;
+}
+.calc{
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 5px;
+    color: rgb(165, 165, 248);
+    background-color: white;
+    border-color: rgb(165, 165, 248);
+    width: 100px;
+    height: 25px;
+    text-align: center;
+    justify-content: center;
+    margin-left: auto;
+    margin: auto;
+    box-shadow: none;
+    margin-bottom: auto;
+    box-sizing: border-box;
+    text-decoration: solid;
+    cursor: pointer;
+}
